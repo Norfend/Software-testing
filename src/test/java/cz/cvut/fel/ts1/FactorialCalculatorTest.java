@@ -10,9 +10,7 @@ public class FactorialCalculatorTest {
     public void shouldReturnException() {
 
         String expectedMessage = "Factorial for negative numbers doesn't exist";
-        Exception exception = assertThrows(IllegalArgumentException.class, ()->{
-            FactorialCalculator.Factorial(-1);
-        });
+        Exception exception = assertThrows(IllegalArgumentException.class, ()-> FactorialCalculator.Factorial(-1));
         String actualMessage = exception.getMessage();
 
         assertEquals(actualMessage, expectedMessage); //compare actual, after method execution, and expected values
@@ -28,7 +26,7 @@ public class FactorialCalculatorTest {
     }
 
     @Test
-    public void shouldReturnFatorialByPositiveNum() {
+    public void shouldReturnFactorialByPositiveNum() {
 
         long expected = 120;
         long actual = FactorialCalculator.Factorial(5);
