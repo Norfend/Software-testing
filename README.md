@@ -1,1 +1,1 @@
-Some directory trash
+This repository will be used for "B6B36TS1, BD6B36TS1 Testování softwaru"
