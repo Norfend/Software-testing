@@ -5,7 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>ts1-lab02</artifactId>
+<!--    Тут имя для всего проекта, а не "только для лабы №1".-->
+<!--    <artifactId>ts1-lab02</artifactId>-->
+    <artifactId>Software-testing</artifactId>
+
     <version>1.0-SNAPSHOT</version>
 
     <properties>
